@@ -36,7 +36,7 @@ android {
     compileSdk 34
     namespace 'com.poupa.vinylmusicplayer'
     defaultConfig {
-        minSdkVersion 19
+        minSdk 19
         targetSdkVersion 33
         renderscriptTargetApi 33
 
@@ -180,11 +180,11 @@ dependencies {
 
     implementation 'me.zhanghai.android.materialprogressbar:library:1.6.1'
 
-    implementation 'com.github.VinylMusicPlayer:jaudiotagger:v3.0.1o'
+    implementation 'com.github.VinylMusicPlayer:jaudiotagger:v2.2.5'
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
     testImplementation 'junit:junit:4.13.2'
 
-    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.0.4'
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.1.3'
 }
